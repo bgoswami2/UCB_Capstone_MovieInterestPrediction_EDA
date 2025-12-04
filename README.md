@@ -18,7 +18,7 @@
 
 **Repository Map**
 - [`capstone_eda_baseline.ipynb`](capstone_eda_baseline.ipynb) – Full exploratory analysis, feature engineering, and KNN baseline workflow.
-- `src/` – Shared Python modules for data loading, feature engineering, and modeling utilities.
+- [`src/`](src) – Shared Python modules for data loading, feature engineering, and modeling utilities.
 
 **How to Reproduce**
 1. Activate a Python environment with `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, and `scipy`.
@@ -30,6 +30,7 @@
 - Incorporate Random Forest and neural recommenders with hyperparameter tuning.
 - Add TF-IDF embeddings for movie overviews to reduce cold-start error.
 - Produce comparative evaluation plots across models for Submission 3.
+
 
 
 
